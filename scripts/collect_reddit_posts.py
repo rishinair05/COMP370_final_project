@@ -1,8 +1,20 @@
+"""
+Script to collect Reddit posts about movies.
+Run from project root: python scripts/collect_reddit_posts.py
+"""
+import sys
+from pathlib import Path
+
+# Add src to path
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
 import requests
 import pandas as pd
 import time
 import datetime
 from langdetect import detect, LangDetectException
+from src.data_utils import save_dataframe
 
 # Configuration
 SUBREDDITS = ["movies", "boxoffice", "DC_cinematic", "superman"]
@@ -147,13 +159,13 @@ def main():
         df = df.drop_duplicates(subset=["id"])
         print(f"Total unique posts collected: {len(df)}")
 
-        # Save
-        output_file = "data/reddit_posts.csv"
-        df.to_csv(output_file, index=False)
-        print(f"Saved to {output_file}")
+        # Save to data/raw/
+        output_path = save_dataframe(df, "reddit_posts.csv", subfolder="raw")
+        print(f"Saved to {output_path}")
     else:
         print("No posts collected.")
 
 
 if __name__ == "__main__":
     main()
+
