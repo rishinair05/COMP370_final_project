@@ -1,6 +1,6 @@
 ## Coding Codebook for Reddit Movie Posts
 
-This codebook defines the main topic of each post. Assign one primary category to each post based on the text_for_coding field. Use "Other" only when a post clearly does not fit any of the six main categories.
+This codebook defines the main topic of each post. Assign one primary category to each post based on the text_for_coding field. Use "Other" or "General news" only when a post clearly does not fit the more specific categories.
 
 ### 1. Box Office and Financial Performance
 
@@ -98,13 +98,27 @@ Edge case
 
 ---
 
-### 7. Other
+### 7. General News
 
 Definition
-- Use this category only when a post does not reasonably fit any of the six main categories above.
+- Posts that report general movie-related news that is not mainly about box office, audience scores, marketing strategy, franchise planning, film quality, or fandom behaviour.
+
+Example
+- id 1lrubj7 – "Julian McMahon Dies: ‘Nip/Tuck’, ‘Fantastic Four’, ‘FBI: Most Wanted’ Star Was 56" (reports an actor’s death without focusing on performance, reception, or strategy)
+
+Negative example
+- id 1m86yhj – "'Air Bud Returns': New Movie Sets Theatrical Release in Summer 2026" (this is mainly about a future release plan, so Marketing, Release Strategy and Distribution)
+
+Edge case
+- id 1mj4xdj – "Disney Boss Bob Iger Says ‘Creating New IP’ Is of ‘Great Value’ but There’s No ‘Priority’ Among Sequels, Remakes and Originals: Just ‘Great Movies’" (although it is a news headline, the content is about how a major studio thinks about IP and slates, so IP, DCU and Franchise Strategy and Future Plans)
+
+### 8. Other
+
+Definition
+- Use this category only when a post does not reasonably fit any of the seven main categories above.
 
 Examples
-- Non-movie news with no clear link to franchise strategy or reception, or highly off-topic discussions.
+- Highly off-topic discussions with no meaningful connection to movies, box office, reception, strategy, quality, fandom, or news.
 
 When in doubt between Box Office and Financial Performance and another category, default to Box Office and Financial Performance if the main content is numbers and money. Otherwise, pick the category that best matches the post’s central focus.
 
