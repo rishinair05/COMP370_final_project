@@ -1,0 +1,33 @@
+TOPIC DISTRIBUTION ANALYSIS - SUMMARY
+================================================================================
+
+RESEARCH QUESTION 1:
+What aspect of the movie was the focus (topic) of the article?
+
+OVERALL TOPIC DISTRIBUTION:
+--------------------------------------------------------------------------------
+Audience Reception and Scores                     :   41 posts (  4.3%)
+Box Office and Financial Performance              :  676 posts ( 71.4%)
+Fandom, Rankings and Community Meta Discussion    :   63 posts (  6.7%)
+Film Quality, Creative Content and Characters     :   37 posts (  3.9%)
+General News                                      :   25 posts (  2.6%)
+Marketing, Franchise Strategy and Distribution    :   95 posts ( 10.0%)
+Other                                             :   10 posts (  1.1%)
+
+
+SUPERMAN-SPECIFIC TOPIC DISTRIBUTION:
+--------------------------------------------------------------------------------
+Total Superman posts: 390
+
+Audience Reception and Scores                     :   19 posts (  4.9%)
+Box Office and Financial Performance              :  228 posts ( 58.5%)
+Fandom, Rankings and Community Meta Discussion    :   42 posts ( 10.8%)
+Film Quality, Creative Content and Characters     :   21 posts (  5.4%)
+General News                                      :   10 posts (  2.6%)
+Marketing, Franchise Strategy and Distribution    :   67 posts ( 17.2%)
+Other                                             :    3 posts (  0.8%)
+
+Top 3 most discussed aspects of Superman:
+  1. Box Office and Financial Performance (228 posts, 58.5%)
+  2. Marketing, Franchise Strategy and Distribution (67 posts, 17.2%)
+  3. Fandom, Rankings and Community Meta Discussion (42 posts, 10.8%)

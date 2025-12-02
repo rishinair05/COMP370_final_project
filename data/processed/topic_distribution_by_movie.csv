@@ -1,0 +1,36 @@
+movie,topic_id,topic_name,count,percentage
+Superman,1,Box Office and Financial Performance,228,58.46153846153847
+Superman,2,Audience Reception and Scores,19,4.871794871794872
+Superman,3,"Marketing, Franchise Strategy and Distribution",67,17.17948717948718
+Superman,4,"Film Quality, Creative Content and Characters",21,5.384615384615385
+Superman,5,"Fandom, Rankings and Community Meta Discussion",42,10.76923076923077
+Superman,6,General News,10,2.564102564102564
+Superman,7,Other,3,0.7692307692307693
+Jurassic World,1,Box Office and Financial Performance,182,85.44600938967136
+Jurassic World,2,Audience Reception and Scores,5,2.3474178403755865
+Jurassic World,3,"Marketing, Franchise Strategy and Distribution",9,4.225352112676056
+Jurassic World,4,"Film Quality, Creative Content and Characters",7,3.286384976525822
+Jurassic World,5,"Fandom, Rankings and Community Meta Discussion",7,3.286384976525822
+Jurassic World,6,General News,3,1.4084507042253522
+Jurassic World,7,Other,0,0.0
+Fantastic Four,1,Box Office and Financial Performance,216,82.12927756653993
+Fantastic Four,2,Audience Reception and Scores,13,4.942965779467681
+Fantastic Four,3,"Marketing, Franchise Strategy and Distribution",7,2.6615969581749046
+Fantastic Four,4,"Film Quality, Creative Content and Characters",5,1.9011406844106464
+Fantastic Four,5,"Fandom, Rankings and Community Meta Discussion",10,3.802281368821293
+Fantastic Four,6,General News,9,3.4220532319391634
+Fantastic Four,7,Other,3,1.1406844106463878
+Smurfs,1,Box Office and Financial Performance,32,84.21052631578947
+Smurfs,2,Audience Reception and Scores,0,0.0
+Smurfs,3,"Marketing, Franchise Strategy and Distribution",1,2.631578947368421
+Smurfs,4,"Film Quality, Creative Content and Characters",1,2.631578947368421
+Smurfs,5,"Fandom, Rankings and Community Meta Discussion",1,2.631578947368421
+Smurfs,6,General News,1,2.631578947368421
+Smurfs,7,Other,2,5.263157894736842
+Other,1,Box Office and Financial Performance,18,41.86046511627907
+Other,2,Audience Reception and Scores,4,9.30232558139535
+Other,3,"Marketing, Franchise Strategy and Distribution",11,25.581395348837212
+Other,4,"Film Quality, Creative Content and Characters",3,6.976744186046512
+Other,5,"Fandom, Rankings and Community Meta Discussion",3,6.976744186046512
+Other,6,General News,2,4.651162790697675
+Other,7,Other,2,4.651162790697675
