@@ -28,7 +28,8 @@ def view_progress():
         return
     
     total = len(df)
-    coded = df['topic'].notna() & (df['topic'].str.strip() != '')
+    # Handle both NaN and empty string cases
+    coded = df['topic'].notna() & (df['topic'].astype(str).str.strip() != '') & (df['topic'].astype(str) != 'nan')
     coded_count = coded.sum()
     uncoded_count = total - coded_count
     
