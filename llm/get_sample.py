@@ -125,7 +125,7 @@ for topic in sorted([val for val in df["topics"].unique() if not pd.isna(val)]):
     # print(topic)
     condensed_text = f"\n{10*'-'}\n".join(
         [
-        f"**{row["title"]}**\n{str(row["selftext"])[:75]}"
+        f"**{row['title']}**\n{str(row['selftext'])[:75]}"
         for _, row in df[df["topics"] == topic].iterrows()
         ]
     )
