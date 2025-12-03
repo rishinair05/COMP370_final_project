@@ -43,18 +43,17 @@ def combine_text(row):
 
 def compute_tfidf_by_topic():
     """Compute TF-IDF scores for each topic and extract top 10 words."""
-    # Load annotated data
-    print("Loading annotated_data.csv...")
-    data_path = get_data_path('processed') / 'annotated_data.csv'
+    # Load annotated data with new 8 topics structure
+    print("Loading reddit_posts_annotated_8topics.csv...")
+    data_path = get_data_path('processed') / 'reddit_posts_annotated_8topics.csv'
     df = pd.read_csv(data_path)
     
     # Filter out rows with NaN topics
-    df = df[df['topics'].notna()].copy()
-    df['topics'] = df['topics'].astype(int)
+    df = df[df['topic'].notna()].copy()
     
     print(f"Total posts with topics: {len(df)}")
     print(f"Topic distribution:")
-    print(df['topics'].value_counts().sort_index())
+    print(df['topic'].value_counts().sort_index())
     print()
     
     # Combine title and selftext
@@ -68,15 +67,16 @@ def compute_tfidf_by_topic():
     print(f"Posts with non-empty text: {len(df)}")
     print()
     
-    # Topic names from codebook
+    # Topic names from codebook (new 8 topics structure)
     topic_names = {
-        1: "Box Office and Financial Performance",
-        2: "Audience Reception and Scores",
-        3: "Marketing, Franchise Strategy and Distribution",
-        4: "Film Quality, Creative Content and Characters",
-        5: "Fandom, Rankings and Community Meta Discussion",
-        6: "General News",
-        7: "Other"
+        '1a': "Box Office - Superman",
+        '1b': "Box Office - Fantastic Four",
+        '1c': "Box Office - Jurassic World and Other Movies",
+        '2': "Audience Reception and Scores",
+        '3': "Marketing, Franchise Strategy and Distribution",
+        '4': "Film Quality, Creative Content and Characters",
+        '5': "Fandom, Rankings and Community Meta Discussion",
+        '6': "General News and Other"
     }
     
     # Compute TF-IDF across ALL documents first
@@ -106,9 +106,15 @@ def compute_tfidf_by_topic():
     # Now compute top words for each topic
     results = {}
     
-    for topic_id in sorted(df['topics'].unique()):
+    # Sort topics in order: 1a, 1b, 1c, 2, 3, 4, 5, 6
+    topic_order = ['1a', '1b', '1c', '2', '3', '4', '5', '6']
+    
+    for topic_id in topic_order:
+        if topic_id not in df['topic'].values:
+            continue
+            
         topic_name = topic_names.get(topic_id, f"Topic {topic_id}")
-        topic_df = df[df['topics'] == topic_id]
+        topic_df = df[df['topic'] == topic_id]
         
         if len(topic_df) == 0:
             continue
@@ -144,10 +150,12 @@ def compute_tfidf_by_topic():
     # Save results to a file
     output_path = get_data_path('processed') / 'tfidf_top_words_by_topic.txt'
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write("Top 10 Words by TF-IDF Score for Each Topic\n")
+        f.write("Top 10 Words by TF-IDF Score for Each Topic (8 Topics Structure)\n")
         f.write("=" * 80 + "\n\n")
         
-        for topic_id in sorted(results.keys()):
+        for topic_id in topic_order:
+            if topic_id not in results:
+                continue
             result = results[topic_id]
             f.write(f"Topic {topic_id}: {result['name']}\n")
             f.write(f"Number of posts: {result['count']}\n")
@@ -166,7 +174,9 @@ def compute_tfidf_by_topic():
     # Also save as CSV for easier analysis
     csv_output_path = get_data_path('processed') / 'tfidf_top_words_by_topic.csv'
     csv_rows = []
-    for topic_id in sorted(results.keys()):
+    for topic_id in topic_order:
+        if topic_id not in results:
+            continue
         result = results[topic_id]
         for rank, (word, score) in enumerate(result['top_words'], 1):
             csv_rows.append({

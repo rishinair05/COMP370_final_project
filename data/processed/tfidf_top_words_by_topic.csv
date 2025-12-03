@@ -1,71 +1,81 @@
 topic_id,topic_name,rank,word,tfidf_score,post_count
-1,Box Office and Financial Performance,1,fantastic,0.048246788846182526,432
-1,Box Office and Financial Performance,2,weekend,0.04699093155739041,432
-1,Box Office and Financial Performance,3,superman,0.04365491840207841,432
-1,Box Office and Financial Performance,4,total,0.042661914936400536,432
-1,Box Office and Financial Performance,5,box office,0.040795338899236804,432
-1,Box Office and Financial Performance,6,box,0.040751199235378906,432
-1,Box Office and Financial Performance,7,office,0.04051081800840285,432
-1,Box Office and Financial Performance,8,estimated,0.04035802848202828,432
-1,Box Office and Financial Performance,9,world,0.039253745112664086,432
-1,Box Office and Financial Performance,10,jurassic,0.038099876473962846,432
-2,Audience Reception and Scores,1,movie,0.06742308625340934,37
-2,Audience Reception and Scores,2,audience,0.0663128460688211,37
-2,Audience Reception and Scores,3,gets cinemascore,0.06271630267014418,37
-2,Audience Reception and Scores,4,superman,0.0601350059966752,37
-2,Audience Reception and Scores,5,score,0.05189786130461756,37
-2,Audience Reception and Scores,6,cinemascore,0.05117234800125167,37
-2,Audience Reception and Scores,7,gets,0.04831030969533464,37
-2,Audience Reception and Scores,8,fantastic,0.04224296942965451,37
-2,Audience Reception and Scores,9,superman movie,0.04041766400697733,37
-2,Audience Reception and Scores,10,rotten,0.03919508411423553,37
-3,"Marketing, Franchise Strategy and Distribution",1,gunn,0.10514256803341687,85
-3,"Marketing, Franchise Strategy and Distribution",2,james gunn,0.0914399013079509,85
-3,"Marketing, Franchise Strategy and Distribution",3,james,0.08949902952629313,85
-3,"Marketing, Franchise Strategy and Distribution",4,superman,0.07411981363826717,85
-3,"Marketing, Franchise Strategy and Distribution",5,new,0.05619238966701202,85
-3,"Marketing, Franchise Strategy and Distribution",6,movie,0.045499628872735204,85
-3,"Marketing, Franchise Strategy and Distribution",7,says,0.040267242900724566,85
-3,"Marketing, Franchise Strategy and Distribution",8,dc,0.03176510939236616,85
-3,"Marketing, Franchise Strategy and Distribution",9,gunn says,0.02893103918767639,85
-3,"Marketing, Franchise Strategy and Distribution",10,dcu,0.02725965895362712,85
-4,"Film Quality, Creative Content and Characters",1,superman,0.10043053605346461,31
-4,"Film Quality, Creative Content and Characters",2,new,0.09154440093315659,31
-4,"Film Quality, Creative Content and Characters",3,movie,0.08101651068854886,31
-4,"Film Quality, Creative Content and Characters",4,new superman,0.07467832449295599,31
-4,"Film Quality, Creative Content and Characters",5,like,0.051271912114176886,31
-4,"Film Quality, Creative Content and Characters",6,film,0.051079353038394455,31
-4,"Film Quality, Creative Content and Characters",7,just,0.04198771329591432,31
-4,"Film Quality, Creative Content and Characters",8,scene,0.03440460452656144,31
-4,"Film Quality, Creative Content and Characters",9,ve,0.031018860233193644,31
-4,"Film Quality, Creative Content and Characters",10,don,0.030861884922299812,31
-5,"Fandom, Rankings and Community Meta Discussion",1,gunn,0.13980074335698217,49
-5,"Fandom, Rankings and Community Meta Discussion",2,james gunn,0.13572366361093446,49
-5,"Fandom, Rankings and Community Meta Discussion",3,james,0.13284283997663798,49
-5,"Fandom, Rankings and Community Meta Discussion",4,superman,0.054662366590191025,49
-5,"Fandom, Rankings and Community Meta Discussion",5,movie,0.03897299133780785,49
-5,"Fandom, Rankings and Community Meta Discussion",6,dcu,0.03640774294884436,49
-5,"Fandom, Rankings and Community Meta Discussion",7,says,0.03300247389570056,49
-5,"Fandom, Rankings and Community Meta Discussion",8,gunn says,0.030717661639449854,49
-5,"Fandom, Rankings and Community Meta Discussion",9,script,0.030218574812556687,49
-5,"Fandom, Rankings and Community Meta Discussion",10,confirms,0.029903131657027564,49
-6,General News,1,james gunn,0.06163308404054455,22
-6,General News,2,gunn,0.06032488147339637,22
-6,General News,3,james,0.06032488147339637,22
-6,General News,4,fantastic,0.045654040936960856,22
-6,General News,5,official,0.041812850986228424,22
-6,General News,6,new,0.040501741490183214,22
-6,General News,7,star,0.03860393331212697,22
-6,General News,8,kpop demon,0.03828648896712383,22
-6,General News,9,kpop,0.03828648896712383,22
-6,General News,10,red,0.03797472146094855,22
-7,Other,1,pg,0.0850698428905232,8
-7,Other,2,douban,0.08498688427384551,8
-7,Other,3,open,0.08498688427384551,8
-7,Other,4,rated,0.08276309803898155,8
-7,Other,5,language,0.08116670127438029,8
-7,Other,6,peacemaker,0.08063703094990629,8
-7,Other,7,feet,0.07137796708340563,8
-7,Other,8,cena,0.06133280887178992,8
-7,Other,9,class,0.05954405653489704,8
-7,Other,10,lawsuit,0.05954405653489704,8
+1a,Box Office - Superman,1,superman,0.08510212991023512,207
+1a,Box Office - Superman,2,weekend,0.04907052081764913,207
+1a,Box Office - Superman,3,movie,0.046396899423373675,207
+1a,Box Office - Superman,4,week,0.04576392700691678,207
+1a,Box Office - Superman,5,box,0.03926989545920373,207
+1a,Box Office - Superman,6,box office,0.039254356077364105,207
+1a,Box Office - Superman,7,office,0.03910092270163998,207
+1a,Box Office - Superman,8,million,0.03500524804105304,207
+1a,Box Office - Superman,9,total,0.033366810519944494,207
+1a,Box Office - Superman,10,world,0.030829742616057153,207
+1b,Box Office - Fantastic Four,1,fantastic,0.110279029697622,135
+1b,Box Office - Fantastic Four,2,steps,0.08566891438884769,135
+1b,Box Office - Fantastic Four,3,fantastic steps,0.08370253681381702,135
+1b,Box Office - Fantastic Four,4,disney fantastic,0.05997779055572726,135
+1b,Box Office - Fantastic Four,5,disney,0.05863485340221386,135
+1b,Box Office - Fantastic Four,6,total,0.05175068267925579,135
+1b,Box Office - Fantastic Four,7,steps grossed,0.051409444861043464,135
+1b,Box Office - Fantastic Four,8,domestic,0.050608420857009666,135
+1b,Box Office - Fantastic Four,9,weekend,0.04940362467907992,135
+1b,Box Office - Fantastic Four,10,box office,0.04798038739019902,135
+1c,Box Office - Jurassic World and Other Movies,1,jurassic,0.07834695960039677,94
+1c,Box Office - Jurassic World and Other Movies,2,jurassic world,0.07817017389333085,94
+1c,Box Office - Jurassic World and Other Movies,3,rebirth,0.07795001733457284,94
+1c,Box Office - Jurassic World and Other Movies,4,world rebirth,0.07368275991499613,94
+1c,Box Office - Jurassic World and Other Movies,5,world,0.07231523754357863,94
+1c,Box Office - Jurassic World and Other Movies,6,universal jurassic,0.061454830503160904,94
+1c,Box Office - Jurassic World and Other Movies,7,domestic,0.06097646448272896,94
+1c,Box Office - Jurassic World and Other Movies,8,estimated,0.05798179761925213,94
+1c,Box Office - Jurassic World and Other Movies,9,universal,0.05651160336950968,94
+1c,Box Office - Jurassic World and Other Movies,10,weekend,0.054973269709199205,94
+2,Audience Reception and Scores,1,gets cinemascore,0.12209782621072779,19
+2,Audience Reception and Scores,2,cinemascore,0.09503200513801434,19
+2,Audience Reception and Scores,3,score,0.09190782731511227,19
+2,Audience Reception and Scores,4,gets,0.09151859507812347,19
+2,Audience Reception and Scores,5,audience,0.08693162747321262,19
+2,Audience Reception and Scores,6,tomatoes,0.058946539808718335,19
+2,Audience Reception and Scores,7,rotten tomatoes,0.058946539808718335,19
+2,Audience Reception and Scores,8,rotten,0.058946539808718335,19
+2,Audience Reception and Scores,9,audience score,0.05059424887538139,19
+2,Audience Reception and Scores,10,steps,0.049064385129549894,19
+3,"Marketing, Franchise Strategy and Distribution",1,dcu,0.08824568914956826,47
+3,"Marketing, Franchise Strategy and Distribution",2,gunn,0.08757365301296566,47
+3,"Marketing, Franchise Strategy and Distribution",3,james gunn,0.08316074795573217,47
+3,"Marketing, Franchise Strategy and Distribution",4,james,0.08140757488528134,47
+3,"Marketing, Franchise Strategy and Distribution",5,new,0.05256509921101571,47
+3,"Marketing, Franchise Strategy and Distribution",6,superman,0.049289719462435634,47
+3,"Marketing, Franchise Strategy and Distribution",7,movie,0.04434456208320814,47
+3,"Marketing, Franchise Strategy and Distribution",8,confirms,0.03455175399880238,47
+3,"Marketing, Franchise Strategy and Distribution",9,theaters,0.028733046290218604,47
+3,"Marketing, Franchise Strategy and Distribution",10,batman,0.02814216077354237,47
+4,"Film Quality, Creative Content and Characters",1,james,0.08703050590192668,33
+4,"Film Quality, Creative Content and Characters",2,james gunn,0.08555937710549362,33
+4,"Film Quality, Creative Content and Characters",3,gunn,0.08501553254417119,33
+4,"Film Quality, Creative Content and Characters",4,scene,0.06677611482569394,33
+4,"Film Quality, Creative Content and Characters",5,superman,0.0581110109849659,33
+4,"Film Quality, Creative Content and Characters",6,script,0.05333942520695268,33
+4,"Film Quality, Creative Content and Characters",7,movie,0.05015772420275921,33
+4,"Film Quality, Creative Content and Characters",8,writing,0.04784717829925105,33
+4,"Film Quality, Creative Content and Characters",9,character,0.03168913494124517,33
+4,"Film Quality, Creative Content and Characters",10,don,0.030544829469385196,33
+5,"Fandom, Rankings and Community Meta Discussion",1,fantastic,0.08234749207699141,31
+5,"Fandom, Rankings and Community Meta Discussion",2,superman,0.04589355256860544,31
+5,"Fandom, Rankings and Community Meta Discussion",3,fantastic steps,0.039883457714244515,31
+5,"Fandom, Rankings and Community Meta Discussion",4,steps,0.03931764895320503,31
+5,"Fandom, Rankings and Community Meta Discussion",5,1m,0.034397089986452176,31
+5,"Fandom, Rankings and Community Meta Discussion",6,brazil,0.03323252773022168,31
+5,"Fandom, Rankings and Community Meta Discussion",7,source,0.03214875898408967,31
+5,"Fandom, Rankings and Community Meta Discussion",8,bot,0.02906216561608539,31
+5,"Fandom, Rankings and Community Meta Discussion",9,movies,0.02832656764354844,31
+5,"Fandom, Rankings and Community Meta Discussion",10,wednesday,0.027662144134678702,31
+6,General News and Other,1,superman,0.09399865709831336,101
+6,General News and Other,2,gunn,0.08974177264177549,101
+6,General News and Other,3,james gunn,0.08369323273878923,101
+6,General News and Other,4,james,0.0819288339638441,101
+6,General News and Other,5,new,0.052616471146068405,101
+6,General News and Other,6,jurassic,0.04158935490576911,101
+6,General News and Other,7,jurassic world,0.04090541565571614,101
+6,General News and Other,8,world,0.03903989289390071,101
+6,General News and Other,9,1m,0.038748330953945795,101
+6,General News and Other,10,rebirth,0.03746046586359672,101
