@@ -6,18 +6,18 @@ How much coverage the movie received relative to other movies?
 
 TOTAL POST COUNT BY MOVIE:
 --------------------------------------------------------------------------------
-Superman            :  391 posts ( 41.2% of total)
-Jurassic World      :  213 posts ( 22.4% of total)
-Fantastic Four      :  265 posts ( 27.9% of total)
-Smurfs              :   38 posts (  4.0% of total)
+Superman            :  380 posts ( 41.3% of total)
+Jurassic World      :  205 posts ( 22.3% of total)
+Fantastic Four      :  255 posts ( 27.7% of total)
+Smurfs              :   33 posts (  3.6% of total)
 
-TOTAL: 950 posts
+TOTAL: 919 posts
 
 
 RELATIVE COVERAGE (Compared to Superman):
 --------------------------------------------------------------------------------
-Superman baseline: 391 posts = 100%
+Superman baseline: 380 posts = 100%
 
-Jurassic World      :  213 posts ( 54.5% of Superman's coverage)
-Fantastic Four      :  265 posts ( 67.8% of Superman's coverage)
-Smurfs              :   38 posts (  9.7% of Superman's coverage)
+Jurassic World      :  205 posts ( 53.9% of Superman's coverage)
+Fantastic Four      :  255 posts ( 67.1% of Superman's coverage)
+Smurfs              :   33 posts (  8.7% of Superman's coverage)

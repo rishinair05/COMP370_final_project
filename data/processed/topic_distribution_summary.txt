@@ -6,28 +6,30 @@ What aspect of the movie was the focus (topic) of the article?
 
 OVERALL TOPIC DISTRIBUTION:
 --------------------------------------------------------------------------------
-Audience Reception and Scores                     :   41 posts (  4.3%)
-Box Office and Financial Performance              :  676 posts ( 71.4%)
-Fandom, Rankings and Community Meta Discussion    :   63 posts (  6.7%)
-Film Quality, Creative Content and Characters     :   37 posts (  3.9%)
-General News                                      :   25 posts (  2.6%)
-Marketing, Franchise Strategy and Distribution    :   95 posts ( 10.0%)
-Other                                             :   10 posts (  1.1%)
+Audience Reception and Scores                     :   43 posts (  4.7%)
+Box Office - Fantastic Four                       :  194 posts ( 21.1%)
+Box Office - Jurassic World and Other Movies      :  137 posts ( 14.9%)
+Box Office - Superman                             :  274 posts ( 29.8%)
+Fandom, Rankings and Community Meta Discussion    :   79 posts (  8.6%)
+Film Quality, Creative Content and Characters     :   42 posts (  4.6%)
+General News and Other                            :   73 posts (  7.9%)
+Marketing, Franchise Strategy and Distribution    :   69 posts (  7.5%)
 
 
 SUPERMAN-SPECIFIC TOPIC DISTRIBUTION:
 --------------------------------------------------------------------------------
-Total Superman posts: 390
+Total Superman posts: 380
 
-Audience Reception and Scores                     :   19 posts (  4.9%)
-Box Office and Financial Performance              :  228 posts ( 58.5%)
-Fandom, Rankings and Community Meta Discussion    :   42 posts ( 10.8%)
-Film Quality, Creative Content and Characters     :   21 posts (  5.4%)
-General News                                      :   10 posts (  2.6%)
-Marketing, Franchise Strategy and Distribution    :   67 posts ( 17.2%)
-Other                                             :    3 posts (  0.8%)
+Audience Reception and Scores                     :   19 posts (  5.0%)
+Box Office - Fantastic Four                       :   24 posts (  6.3%)
+Box Office - Jurassic World and Other Movies      :   25 posts (  6.6%)
+Box Office - Superman                             :  157 posts ( 41.3%)
+Fandom, Rankings and Community Meta Discussion    :   45 posts ( 11.8%)
+Film Quality, Creative Content and Characters     :   24 posts (  6.3%)
+General News and Other                            :   29 posts (  7.6%)
+Marketing, Franchise Strategy and Distribution    :   55 posts ( 14.5%)
 
 Top 3 most discussed aspects of Superman:
-  1. Box Office and Financial Performance (228 posts, 58.5%)
-  2. Marketing, Franchise Strategy and Distribution (67 posts, 17.2%)
-  3. Fandom, Rankings and Community Meta Discussion (42 posts, 10.8%)
+  1. Box Office - Superman (157 posts, 41.3%)
+  2. Marketing, Franchise Strategy and Distribution (55 posts, 14.5%)
+  3. Fandom, Rankings and Community Meta Discussion (45 posts, 11.8%)

@@ -1,0 +1,41 @@
+movie,topic_id,topic_name,count,percentage
+Superman,1a,Box Office - Superman,157,41.31578947368421
+Superman,1b,Box Office - Fantastic Four,24,6.315789473684211
+Superman,1c,Box Office - Jurassic World and Other Movies,25,6.578947368421052
+Superman,2,Audience Reception and Scores,19,5.0
+Superman,3,"Marketing, Franchise Strategy and Distribution",55,14.473684210526317
+Superman,4,"Film Quality, Creative Content and Characters",24,6.315789473684211
+Superman,5,"Fandom, Rankings and Community Meta Discussion",45,11.842105263157894
+Superman,6,General News and Other,29,7.631578947368421
+Jurassic World,1a,Box Office - Superman,55,26.82926829268293
+Jurassic World,1b,Box Office - Fantastic Four,18,8.780487804878048
+Jurassic World,1c,Box Office - Jurassic World and Other Movies,76,37.073170731707314
+Jurassic World,2,Audience Reception and Scores,6,2.9268292682926833
+Jurassic World,3,"Marketing, Franchise Strategy and Distribution",3,1.4634146341463417
+Jurassic World,4,"Film Quality, Creative Content and Characters",8,3.902439024390244
+Jurassic World,5,"Fandom, Rankings and Community Meta Discussion",8,3.902439024390244
+Jurassic World,6,General News and Other,31,15.121951219512194
+Fantastic Four,1a,Box Office - Superman,50,19.607843137254903
+Fantastic Four,1b,Box Office - Fantastic Four,143,56.07843137254902
+Fantastic Four,1c,Box Office - Jurassic World and Other Movies,17,6.666666666666667
+Fantastic Four,2,Audience Reception and Scores,12,4.705882352941177
+Fantastic Four,3,"Marketing, Franchise Strategy and Distribution",0,0.0
+Fantastic Four,4,"Film Quality, Creative Content and Characters",7,2.7450980392156863
+Fantastic Four,5,"Fandom, Rankings and Community Meta Discussion",19,7.450980392156863
+Fantastic Four,6,General News and Other,5,1.9607843137254901
+Smurfs,1a,Box Office - Superman,12,36.36363636363637
+Smurfs,1b,Box Office - Fantastic Four,6,18.181818181818183
+Smurfs,1c,Box Office - Jurassic World and Other Movies,5,15.151515151515152
+Smurfs,2,Audience Reception and Scores,0,0.0
+Smurfs,3,"Marketing, Franchise Strategy and Distribution",1,3.0303030303030303
+Smurfs,4,"Film Quality, Creative Content and Characters",0,0.0
+Smurfs,5,"Fandom, Rankings and Community Meta Discussion",2,6.0606060606060606
+Smurfs,6,General News and Other,5,15.151515151515152
+Other,1a,Box Office - Superman,0,0.0
+Other,1b,Box Office - Fantastic Four,3,6.521739130434782
+Other,1c,Box Office - Jurassic World and Other Movies,14,30.434782608695656
+Other,2,Audience Reception and Scores,6,13.043478260869565
+Other,3,"Marketing, Franchise Strategy and Distribution",10,21.73913043478261
+Other,4,"Film Quality, Creative Content and Characters",3,6.521739130434782
+Other,5,"Fandom, Rankings and Community Meta Discussion",5,10.869565217391305
+Other,6,General News and Other,3,6.521739130434782

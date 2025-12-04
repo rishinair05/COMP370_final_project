@@ -2,130 +2,130 @@ Top 10 Words by TF-IDF Score for Each Topic (8 Topics Structure)
 ================================================================================
 
 Topic 1a: Box Office - Superman
-Number of posts: 207
+Number of posts: 157
 Top 10 words by TF-IDF:
-   1. superman             (TF-IDF: 0.0851)
-   2. weekend              (TF-IDF: 0.0491)
-   3. movie                (TF-IDF: 0.0464)
-   4. week                 (TF-IDF: 0.0458)
-   5. box                  (TF-IDF: 0.0393)
-   6. box office           (TF-IDF: 0.0393)
-   7. office               (TF-IDF: 0.0391)
-   8. million              (TF-IDF: 0.0350)
-   9. total                (TF-IDF: 0.0334)
-  10. world                (TF-IDF: 0.0308)
+   1. superman             (TF-IDF: 0.0896)
+   2. weekend              (TF-IDF: 0.0484)
+   3. week                 (TF-IDF: 0.0435)
+   4. movie                (TF-IDF: 0.0422)
+   5. box                  (TF-IDF: 0.0412)
+   6. box office           (TF-IDF: 0.0411)
+   7. office               (TF-IDF: 0.0408)
+   8. estimated            (TF-IDF: 0.0392)
+   9. f1                   (TF-IDF: 0.0323)
+  10. total                (TF-IDF: 0.0319)
 
 --------------------------------------------------------------------------------
 
 Topic 1b: Box Office - Fantastic Four
-Number of posts: 135
+Number of posts: 147
 Top 10 words by TF-IDF:
-   1. fantastic            (TF-IDF: 0.1103)
-   2. steps                (TF-IDF: 0.0857)
-   3. fantastic steps      (TF-IDF: 0.0837)
-   4. disney fantastic     (TF-IDF: 0.0600)
-   5. disney               (TF-IDF: 0.0586)
-   6. total                (TF-IDF: 0.0518)
-   7. steps grossed        (TF-IDF: 0.0514)
-   8. domestic             (TF-IDF: 0.0506)
-   9. weekend              (TF-IDF: 0.0494)
-  10. box office           (TF-IDF: 0.0480)
+   1. fantastic            (TF-IDF: 0.1095)
+   2. steps                (TF-IDF: 0.0886)
+   3. fantastic steps      (TF-IDF: 0.0870)
+   4. disney               (TF-IDF: 0.0551)
+   5. disney fantastic     (TF-IDF: 0.0543)
+   6. weekend              (TF-IDF: 0.0529)
+   7. box office           (TF-IDF: 0.0521)
+   8. box                  (TF-IDF: 0.0519)
+   9. office               (TF-IDF: 0.0517)
+  10. total                (TF-IDF: 0.0495)
 
 --------------------------------------------------------------------------------
 
 Topic 1c: Box Office - Jurassic World and Other Movies
-Number of posts: 94
+Number of posts: 98
 Top 10 words by TF-IDF:
-   1. jurassic             (TF-IDF: 0.0783)
-   2. jurassic world       (TF-IDF: 0.0782)
-   3. rebirth              (TF-IDF: 0.0780)
-   4. world rebirth        (TF-IDF: 0.0737)
-   5. world                (TF-IDF: 0.0723)
-   6. universal jurassic   (TF-IDF: 0.0615)
-   7. domestic             (TF-IDF: 0.0610)
-   8. estimated            (TF-IDF: 0.0580)
-   9. universal            (TF-IDF: 0.0565)
-  10. weekend              (TF-IDF: 0.0550)
+   1. jurassic world       (TF-IDF: 0.0785)
+   2. jurassic             (TF-IDF: 0.0784)
+   3. rebirth              (TF-IDF: 0.0784)
+   4. world rebirth        (TF-IDF: 0.0744)
+   5. world                (TF-IDF: 0.0734)
+   6. universal jurassic   (TF-IDF: 0.0582)
+   7. total                (TF-IDF: 0.0569)
+   8. universal            (TF-IDF: 0.0556)
+   9. estimated            (TF-IDF: 0.0552)
+  10. domestic             (TF-IDF: 0.0536)
 
 --------------------------------------------------------------------------------
 
 Topic 2: Audience Reception and Scores
-Number of posts: 19
+Number of posts: 38
 Top 10 words by TF-IDF:
-   1. gets cinemascore     (TF-IDF: 0.1221)
-   2. cinemascore          (TF-IDF: 0.0950)
-   3. score                (TF-IDF: 0.0919)
-   4. gets                 (TF-IDF: 0.0915)
-   5. audience             (TF-IDF: 0.0869)
-   6. tomatoes             (TF-IDF: 0.0589)
-   7. rotten tomatoes      (TF-IDF: 0.0589)
-   8. rotten               (TF-IDF: 0.0589)
-   9. audience score       (TF-IDF: 0.0506)
-  10. steps                (TF-IDF: 0.0491)
+   1. audience             (TF-IDF: 0.0707)
+   2. superman             (TF-IDF: 0.0618)
+   3. movie                (TF-IDF: 0.0599)
+   4. gets cinemascore     (TF-IDF: 0.0584)
+   5. cinemascore          (TF-IDF: 0.0505)
+   6. score                (TF-IDF: 0.0481)
+   7. gets                 (TF-IDF: 0.0442)
+   8. gunn                 (TF-IDF: 0.0395)
+   9. fantastic            (TF-IDF: 0.0319)
+  10. james                (TF-IDF: 0.0319)
 
 --------------------------------------------------------------------------------
 
 Topic 3: Marketing, Franchise Strategy and Distribution
-Number of posts: 47
+Number of posts: 67
 Top 10 words by TF-IDF:
-   1. dcu                  (TF-IDF: 0.0882)
-   2. gunn                 (TF-IDF: 0.0876)
-   3. james gunn           (TF-IDF: 0.0832)
-   4. james                (TF-IDF: 0.0814)
-   5. new                  (TF-IDF: 0.0526)
-   6. superman             (TF-IDF: 0.0493)
-   7. movie                (TF-IDF: 0.0443)
-   8. confirms             (TF-IDF: 0.0346)
-   9. theaters             (TF-IDF: 0.0287)
-  10. batman               (TF-IDF: 0.0281)
+   1. gunn                 (TF-IDF: 0.1198)
+   2. james gunn           (TF-IDF: 0.1074)
+   3. james                (TF-IDF: 0.1063)
+   4. superman             (TF-IDF: 0.0794)
+   5. new                  (TF-IDF: 0.0657)
+   6. says                 (TF-IDF: 0.0508)
+   7. movie                (TF-IDF: 0.0433)
+   8. gunn says            (TF-IDF: 0.0359)
+   9. dcu                  (TF-IDF: 0.0348)
+  10. dc                   (TF-IDF: 0.0315)
 
 --------------------------------------------------------------------------------
 
 Topic 4: Film Quality, Creative Content and Characters
-Number of posts: 33
+Number of posts: 36
 Top 10 words by TF-IDF:
-   1. james                (TF-IDF: 0.0870)
-   2. james gunn           (TF-IDF: 0.0856)
-   3. gunn                 (TF-IDF: 0.0850)
-   4. scene                (TF-IDF: 0.0668)
-   5. superman             (TF-IDF: 0.0581)
-   6. script               (TF-IDF: 0.0533)
-   7. movie                (TF-IDF: 0.0502)
-   8. writing              (TF-IDF: 0.0478)
-   9. character            (TF-IDF: 0.0317)
-  10. don                  (TF-IDF: 0.0305)
+   1. superman             (TF-IDF: 0.0937)
+   2. new                  (TF-IDF: 0.0744)
+   3. movie                (TF-IDF: 0.0664)
+   4. new superman         (TF-IDF: 0.0514)
+   5. film                 (TF-IDF: 0.0397)
+   6. like                 (TF-IDF: 0.0339)
+   7. just                 (TF-IDF: 0.0330)
+   8. don                  (TF-IDF: 0.0312)
+   9. scene                (TF-IDF: 0.0304)
+  10. movies               (TF-IDF: 0.0300)
 
 --------------------------------------------------------------------------------
 
 Topic 5: Fandom, Rankings and Community Meta Discussion
-Number of posts: 31
+Number of posts: 59
 Top 10 words by TF-IDF:
-   1. fantastic            (TF-IDF: 0.0823)
-   2. superman             (TF-IDF: 0.0459)
-   3. fantastic steps      (TF-IDF: 0.0399)
-   4. steps                (TF-IDF: 0.0393)
-   5. 1m                   (TF-IDF: 0.0344)
-   6. brazil               (TF-IDF: 0.0332)
-   7. source               (TF-IDF: 0.0321)
-   8. bot                  (TF-IDF: 0.0291)
-   9. movies               (TF-IDF: 0.0283)
-  10. wednesday            (TF-IDF: 0.0277)
+   1. gunn                 (TF-IDF: 0.1132)
+   2. james gunn           (TF-IDF: 0.1109)
+   3. james                (TF-IDF: 0.1092)
+   4. superman             (TF-IDF: 0.0493)
+   5. fantastic            (TF-IDF: 0.0348)
+   6. dcu                  (TF-IDF: 0.0298)
+   7. movie                (TF-IDF: 0.0266)
+   8. says                 (TF-IDF: 0.0265)
+   9. script               (TF-IDF: 0.0259)
+  10. gunn says            (TF-IDF: 0.0250)
 
 --------------------------------------------------------------------------------
 
 Topic 6: General News and Other
-Number of posts: 101
+Number of posts: 54
 Top 10 words by TF-IDF:
-   1. superman             (TF-IDF: 0.0940)
-   2. gunn                 (TF-IDF: 0.0897)
-   3. james gunn           (TF-IDF: 0.0837)
-   4. james                (TF-IDF: 0.0819)
-   5. new                  (TF-IDF: 0.0526)
-   6. jurassic             (TF-IDF: 0.0416)
-   7. jurassic world       (TF-IDF: 0.0409)
-   8. world                (TF-IDF: 0.0390)
-   9. 1m                   (TF-IDF: 0.0387)
-  10. rebirth              (TF-IDF: 0.0375)
+   1. jurassic             (TF-IDF: 0.0778)
+   2. jurassic world       (TF-IDF: 0.0767)
+   3. 1m                   (TF-IDF: 0.0722)
+   4. world                (TF-IDF: 0.0711)
+   5. rebirth              (TF-IDF: 0.0680)
+   6. world rebirth        (TF-IDF: 0.0667)
+   7. day                  (TF-IDF: 0.0614)
+   8. 1m club              (TF-IDF: 0.0587)
+   9. club                 (TF-IDF: 0.0560)
+  10. 5m                   (TF-IDF: 0.0531)
 
 --------------------------------------------------------------------------------
 
