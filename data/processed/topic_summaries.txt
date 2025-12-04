@@ -1,0 +1,162 @@
+Topic Summaries Based on TF-IDF Analysis and Codebook Definitions
+================================================================================
+
+Topic 1a: Box Office - Superman
+Number of posts: 207
+
+Summary:
+This category focuses exclusively on box office performance and financial metrics for Superman (2025). Posts discuss weekend grosses, domestic and international totals, opening numbers, and comparisons with previous Superman films like Man of Steel. The discussions center on tracking Superman's box office trajectory, analyzing its performance relative to expectations, and examining regional variations in international markets. Key themes include strong domestic performance, mixed international results, and projections toward $600-700M global totals.
+
+Top 10 words by TF-IDF:
+  1. superman             (TF-IDF: 0.0851)
+  2. weekend              (TF-IDF: 0.0491)
+  3. movie                (TF-IDF: 0.0464)
+  4. week                 (TF-IDF: 0.0458)
+  5. box                  (TF-IDF: 0.0393)
+  6. box office           (TF-IDF: 0.0393)
+  7. office               (TF-IDF: 0.0391)
+  8. million              (TF-IDF: 0.0350)
+  9. total                (TF-IDF: 0.0334)
+ 10. world                (TF-IDF: 0.0308)
+
+--------------------------------------------------------------------------------
+
+Topic 1b: Box Office - Fantastic Four
+Number of posts: 135
+
+Summary:
+This category centers on box office discussions specifically about The Fantastic Four: First Steps. Posts track the film's opening weekend performance, domestic and international grosses, and compare its financial performance to other major releases. Key discussions include the film's strong worldwide opening, mixed overseas performance (strong in Europe and LATAM, weaker in China), and its position relative to competing films like Superman and Jurassic World. The posts reflect interest in tracking how this Marvel property performs financially.
+
+Top 10 words by TF-IDF:
+  1. fantastic            (TF-IDF: 0.1103)
+  2. steps                (TF-IDF: 0.0857)
+  3. fantastic steps       (TF-IDF: 0.0837)
+  4. disney fantastic      (TF-IDF: 0.0600)
+  5. disney               (TF-IDF: 0.0586)
+  6. total                (TF-IDF: 0.0518)
+  7. steps grossed         (TF-IDF: 0.0514)
+  8. domestic             (TF-IDF: 0.0506)
+  9. weekend              (TF-IDF: 0.0494)
+ 10. box office           (TF-IDF: 0.0480)
+
+--------------------------------------------------------------------------------
+
+Topic 1c: Box Office - Jurassic World and Other Movies
+Number of posts: 94
+
+Summary:
+This category encompasses box office discussions about Jurassic World: Rebirth and other movies (including Smurfs). Posts focus on Jurassic World's strong international performance, with the film serving as a clear international box office leader. Discussions highlight rapid foreign grosses, comparisons with other franchises, and the film's path toward $700-800M global totals. The category also includes posts comparing multiple movies' box office performance together or discussing other films' financial metrics.
+
+Top 10 words by TF-IDF:
+  1. jurassic             (TF-IDF: 0.0783)
+  2. jurassic world       (TF-IDF: 0.0782)
+  3. rebirth              (TF-IDF: 0.0780)
+  4. world rebirth        (TF-IDF: 0.0737)
+  5. world                (TF-IDF: 0.0723)
+  6. universal jurassic   (TF-IDF: 0.0615)
+  7. domestic             (TF-IDF: 0.0610)
+  8. estimated            (TF-IDF: 0.0580)
+  9. universal            (TF-IDF: 0.0565)
+ 10. weekend              (TF-IDF: 0.0550)
+
+--------------------------------------------------------------------------------
+
+Topic 2: Audience Reception and Scores
+Number of posts: 19
+
+Summary:
+This category focuses on how audiences rate and react to movies through various scoring systems and metrics. Posts center on audience reception measurements like CinemaScore grades, Rotten Tomatoes audience scores, and local rating platforms (CGV, Megabox in Korea). The discussions pair numerical ratings (A, B, 95% scores) with qualitative audience feedback about elements like CGI quality, enjoyment, rewatchability, and recommendations. Posts often compare audience scores to critic scores and examine the relationship between audience sentiment and box office performance, including demographic breakdowns that influence a film's longevity.
+
+Top 10 words by TF-IDF:
+  1. gets cinemascore     (TF-IDF: 0.1221)
+  2. cinemascore          (TF-IDF: 0.0950)
+  3. score                (TF-IDF: 0.0919)
+  4. gets                 (TF-IDF: 0.0915)
+  5. audience             (TF-IDF: 0.0869)
+  6. tomatoes             (TF-IDF: 0.0589)
+  7. rotten tomatoes      (TF-IDF: 0.0589)
+  8. rotten               (TF-IDF: 0.0589)
+  9. audience score        (TF-IDF: 0.0506)
+ 10. steps                (TF-IDF: 0.0491)
+
+--------------------------------------------------------------------------------
+
+Topic 3: Marketing, Franchise Strategy and Distribution
+Number of posts: 47
+
+Summary:
+This category examines how studios position, market, and plan their films and cinematic universes. Posts discuss DCU leadership under James Gunn, future slate planning (Super-Family movies, character choices like Supergirl, Clayface, Wonder Woman), and strategic decisions about release windows, marketing spend, and platform distribution (theatrical vs PVOD/streaming). The discussions blend industry speculation with analysis of how current performance data influences future planning, including considerations of IP value, star power, genre strategy, and corporate leadership decisions at studios like Warner Bros. and Disney.
+
+Top 10 words by TF-IDF:
+  1. dcu                  (TF-IDF: 0.0882)
+  2. gunn                 (TF-IDF: 0.0876)
+  3. james gunn           (TF-IDF: 0.0832)
+  4. james                (TF-IDF: 0.0814)
+  5. new                  (TF-IDF: 0.0526)
+  6. superman             (TF-IDF: 0.0493)
+  7. movie                (TF-IDF: 0.0443)
+  8. confirms             (TF-IDF: 0.0346)
+  9. theaters             (TF-IDF: 0.0287)
+ 10. batman               (TF-IDF: 0.0281)
+
+--------------------------------------------------------------------------------
+
+Topic 4: Film Quality, Creative Content and Characters
+Number of posts: 33
+
+Summary:
+This category centers on evaluating what movies are like as films, focusing on quality, tone, direction, scenes, and character portrayals. Posts discuss directing choices, particularly James Gunn's approach to Superman and DC films, comparing his style across different projects. Discussions weigh creative decisions like pacing, character arcs, post-credits scenes, and how the film's take on characters fits or challenges previous depictions. Posts also examine craft elements like soundtrack, cinematography, and distinctive filmmaking styles that contribute to cinematic quality, with personal experiences and subjective comparisons playing a key role in assessments.
+
+Top 10 words by TF-IDF:
+  1. james                (TF-IDF: 0.0870)
+  2. james gunn           (TF-IDF: 0.0856)
+  3. gunn                 (TF-IDF: 0.0850)
+  4. scene                (TF-IDF: 0.0668)
+  5. superman             (TF-IDF: 0.0581)
+  6. script               (TF-IDF: 0.0533)
+  7. movie                (TF-IDF: 0.0502)
+  8. writing              (TF-IDF: 0.0478)
+  9. character            (TF-IDF: 0.0317)
+ 10. don                  (TF-IDF: 0.0305)
+
+--------------------------------------------------------------------------------
+
+Topic 5: Fandom, Rankings and Community Meta Discussion
+Number of posts: 31
+
+Summary:
+This category serves as a social hub for fans to share viewing experiences, create rankings, and engage in community discussions. Posts range from personal theater anecdotes and viewing plans to broad rankings (top 10 superhero films, best directorial debuts) and hypothetical questions about franchises. Discussion megathreads anchor conversations around current releases, enabling community-wide discussion. A substantial portion focuses on DC/Warner Bros. Universe rumors, official updates from James Gunn about DCU canon, casting, and script notes, often mixing speculation with news. The category reflects how fans discuss and organize around movies, franchises, and the industry.
+
+Top 10 words by TF-IDF:
+  1. fantastic            (TF-IDF: 0.0823)
+  2. superman             (TF-IDF: 0.0459)
+  3. fantastic steps      (TF-IDF: 0.0399)
+  4. steps                (TF-IDF: 0.0393)
+  5. 1m                   (TF-IDF: 0.0344)
+  6. brazil               (TF-IDF: 0.0332)
+  7. source               (TF-IDF: 0.0321)
+  8. bot                  (TF-IDF: 0.0291)
+  9. movies               (TF-IDF: 0.0283)
+ 10. wednesday            (TF-IDF: 0.0277)
+
+--------------------------------------------------------------------------------
+
+Topic 6: General News and Other
+Number of posts: 101
+
+Summary:
+This category captures general movie-related news that doesn't fit into the more specific categories, as well as miscellaneous entertainment industry content. Posts report on leadership decisions, franchise development updates, casting news, budgets, and behind-the-scenes moves across major studios. Key themes include development updates (like Superman sequel writing), casting changes, actor milestones, and industry-adjacent topics. The category reflects a fast-moving news feed covering strategic decisions, production updates, and slate management that shapes the cinematic landscape, without focusing primarily on box office, audience scores, marketing strategy, or film quality.
+
+Top 10 words by TF-IDF:
+  1. superman             (TF-IDF: 0.0940)
+  2. gunn                 (TF-IDF: 0.0897)
+  3. james gunn           (TF-IDF: 0.0837)
+  4. james                (TF-IDF: 0.0819)
+  5. new                  (TF-IDF: 0.0526)
+  6. jurassic             (TF-IDF: 0.0416)
+  7. jurassic world       (TF-IDF: 0.0409)
+  8. world                (TF-IDF: 0.0390)
+  9. 1m                   (TF-IDF: 0.0387)
+ 10. rebirth              (TF-IDF: 0.0375)
+
+--------------------------------------------------------------------------------
