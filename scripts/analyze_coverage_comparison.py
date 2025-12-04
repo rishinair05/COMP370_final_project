@@ -47,9 +47,15 @@ def identify_movie(row):
 def analyze_coverage_comparison():
     """Analyze coverage comparison across movies."""
     # Load annotated data
-    print("Loading annotated_data.csv...")
-    data_path = get_data_path('processed') / 'annotated_data.csv'
-    df = pd.read_csv(data_path)
+    print("Loading final_dataset.xlsx...")
+    data_path = get_data_path('processed') / 'final_dataset.xlsx'
+    df = pd.read_excel(data_path)
+    
+    # If Excel file doesn't have headers, assign them
+    if 'title' not in df.columns and 'selftext' not in df.columns:
+        if len(df.columns) == 10:
+            df.columns = ['id', 'title', 'selftext', 'subreddit', 'created_utc', 
+                         'author', 'permalink', 'url', 'score', 'topic']
     
     print(f"Total posts in dataset: {len(df)}")
     print()

@@ -5,7 +5,7 @@ Topic 1a: Box Office - Superman
 Number of posts: 207
 
 Summary:
-This category focuses exclusively on box office performance and financial metrics for Superman (2025). Posts discuss weekend grosses, domestic and international totals, opening numbers, and comparisons with previous Superman films like Man of Steel. The discussions center on tracking Superman's box office trajectory, analyzing its performance relative to expectations, and examining regional variations in international markets. Key themes include strong domestic performance, mixed international results, and projections toward $600-700M global totals.
+This category focuses on box office performance and financial metrics where Superman (2025) is the main focus or has high priority. Posts discuss weekend grosses, domestic and international totals, opening numbers, and comparisons with other films (where Superman remains the primary subject). The discussions center on tracking Superman's box office trajectory, analyzing its performance relative to expectations, and examining regional variations in international markets. Key themes include strong domestic performance, mixed international results, and projections toward $600-700M global totals. Other movies can be mentioned and compared, but Superman is the primary subject of the discussion.
 
 Top 10 words by TF-IDF:
   1. superman             (TF-IDF: 0.0851)
@@ -25,7 +25,7 @@ Topic 1b: Box Office - Fantastic Four
 Number of posts: 135
 
 Summary:
-This category centers on box office discussions specifically about The Fantastic Four: First Steps. Posts track the film's opening weekend performance, domestic and international grosses, and compare its financial performance to other major releases. Key discussions include the film's strong worldwide opening, mixed overseas performance (strong in Europe and LATAM, weaker in China), and its position relative to competing films like Superman and Jurassic World. The posts reflect interest in tracking how this Marvel property performs financially.
+This category centers on box office discussions where The Fantastic Four: First Steps is the main focus or has high priority. Posts track the film's opening weekend performance, domestic and international grosses, and compare its financial performance to other major releases (where Fantastic Four remains the primary subject). Key discussions include the film's strong worldwide opening, mixed overseas performance (strong in Europe and LATAM, weaker in China), and its position relative to competing films like Superman and Jurassic World. The posts reflect interest in tracking how this Marvel property performs financially. Other movies can be mentioned and compared, but Fantastic Four is the primary subject of the discussion.
 
 Top 10 words by TF-IDF:
   1. fantastic            (TF-IDF: 0.1103)
@@ -45,7 +45,7 @@ Topic 1c: Box Office - Jurassic World and Other Movies
 Number of posts: 94
 
 Summary:
-This category encompasses box office discussions about Jurassic World: Rebirth and other movies (including Smurfs). Posts focus on Jurassic World's strong international performance, with the film serving as a clear international box office leader. Discussions highlight rapid foreign grosses, comparisons with other franchises, and the film's path toward $700-800M global totals. The category also includes posts comparing multiple movies' box office performance together or discussing other films' financial metrics.
+This category encompasses box office discussions where Jurassic World: Rebirth, Smurfs, or other movies (not Superman or Fantastic Four) are the main focus or have high priority. Posts focus on Jurassic World's strong international performance, with the film serving as a clear international box office leader. Discussions highlight rapid foreign grosses, comparisons with other franchises, and the film's path toward $700-800M global totals. The category also includes posts comparing multiple movies' box office performance together or discussing other films' financial metrics. Other movies can be mentioned and compared, but the primary subject should be one of these movies, or the post discusses multiple movies without a clear focus on one specific film.
 
 Top 10 words by TF-IDF:
   1. jurassic             (TF-IDF: 0.0783)

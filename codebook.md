@@ -5,7 +5,7 @@ This codebook defines the main topic of each post. Assign one primary category t
 ### 1a. Box Office and Financial Performance - Superman
 
 Definition
-- Box office and financial performance posts specifically about Superman (2025), James Gunn's Superman, or DCU-related box office discussions. Includes grosses, admissions, drops, forecasts, presales, regional box office, or rankings where the focus is on financial outcomes related to Superman.
+- Box office and financial performance posts where Superman (2025), James Gunn's Superman, or DCU-related box office is the main focus or has high priority. Other movies can be mentioned and compared, but Superman should be the primary subject of the discussion. Includes grosses, admissions, drops, forecasts, presales, regional box office, or rankings where the focus is on financial outcomes related to Superman.
 
 Example
 - id 1mp6ip9 – "Warner Bros. Superman has grossed an estimated $249.4M internationally... Estimated global total through Tuesday stands at $583.2M."
@@ -16,28 +16,31 @@ Negative example
 
 Edge case
 - id 1m1lwcx – "Superman opened in France with 576k tickets sold... lagging behind Man of Steel's 1M and Superman Returns' 640k..." (there are comparisons, but they are comparisons of ticket counts, so still Box Office and Financial Performance)
+- Example with multiple movies: "Superman's $125M opening weekend beats Fantastic Four's $95M debut, but falls short of Jurassic World's $140M" – Superman is the main focus (mentioned first, in title position), so this is 1a, even though other movies are compared.
 
 ---
 
 ### 1b. Box Office and Financial Performance - Fantastic Four
 
 Definition
-- Box office and financial performance posts specifically about The Fantastic Four: First Steps. Includes grosses, admissions, drops, forecasts, presales, regional box office, or rankings where the focus is on financial outcomes related to Fantastic Four.
+- Box office and financial performance posts where The Fantastic Four: First Steps is the main focus or has high priority. Other movies can be mentioned and compared, but Fantastic Four should be the primary subject of the discussion. Includes grosses, admissions, drops, forecasts, presales, regional box office, or rankings where the focus is on financial outcomes related to Fantastic Four.
 
 Example
 - Posts about Fantastic Four's opening weekend, box office totals, financial performance metrics, or comparisons with other films' box office performance.
+- "Fantastic Four debuts with $95M, compared to Superman's $125M and Jurassic World's $140M" – Fantastic Four is the main focus, so this is 1b, even though other movies are mentioned for comparison.
 
 ---
 
 ### 1c. Box Office and Financial Performance - Jurassic World and Other Movies
 
 Definition
-- Box office and financial performance posts about Jurassic World: Rebirth, Smurfs, or other movies not specifically categorized above. Also includes posts that discuss multiple movies' box office performance together without a clear focus on one specific film.
+- Box office and financial performance posts where Jurassic World: Rebirth, Smurfs, or other movies (not Superman or Fantastic Four) are the main focus or have high priority. Other movies can be mentioned and compared, but the primary subject should be one of these movies. Also includes posts that discuss multiple movies' box office performance together without a clear focus on one specific film (i.e., when no single movie is clearly the main subject).
 
 Example
 - Posts about Jurassic World's box office performance, weekend grosses, international totals.
 - Posts comparing multiple movies' box office performance.
 - Posts about Smurfs or other movies' financial performance.
+- "Jurassic World Rebirth leads international box office with $200M, while Superman and Fantastic Four struggle overseas" – Jurassic World is the main focus, so this is 1c, even though other movies are mentioned.
 
 ---
 

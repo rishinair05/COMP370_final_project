@@ -47,13 +47,22 @@ def identify_movie(row):
 def analyze_topic_distribution():
     """Analyze topic distribution across movies."""
     # Load annotated data
-    print("Loading annotated_data.csv...")
-    data_path = get_data_path('processed') / 'annotated_data.csv'
-    df = pd.read_csv(data_path)
+    print("Loading final_dataset.xlsx...")
+    data_path = get_data_path('processed') / 'final_dataset.xlsx'
+    df = pd.read_excel(data_path)
     
-    # Filter to posts with topics
-    df = df[df['topics'].notna()].copy()
-    df['topics'] = df['topics'].astype(int)
+    # If Excel file doesn't have headers, assign them
+    if 'topic' not in df.columns and 'topics' not in df.columns:
+        if len(df.columns) == 10:
+            df.columns = ['id', 'title', 'selftext', 'subreddit', 'created_utc', 
+                         'author', 'permalink', 'url', 'score', 'topic']
+    
+    # Filter to posts with topics (check for both 'topic' and 'topics' column names)
+    topic_col = 'topic' if 'topic' in df.columns else 'topics'
+    df = df[df[topic_col].notna()].copy()
+    
+    # Convert topic column to string to handle mixed types
+    df[topic_col] = df[topic_col].astype(str)
     
     print(f"Total posts with topics: {len(df)}")
     print()
@@ -72,18 +81,20 @@ def analyze_topic_distribution():
     
     df_expanded = pd.DataFrame(expanded_rows)
     
-    # Topic names
+    # Topic names (8 topics structure: 1a, 1b, 1c, 2, 3, 4, 5, 6)
     topic_names = {
-        1: "Box Office and Financial Performance",
-        2: "Audience Reception and Scores",
-        3: "Marketing, Franchise Strategy and Distribution",
-        4: "Film Quality, Creative Content and Characters",
-        5: "Fandom, Rankings and Community Meta Discussion",
-        6: "General News",
-        7: "Other"
+        '1a': "Box Office - Superman",
+        '1b': "Box Office - Fantastic Four",
+        '1c': "Box Office - Jurassic World and Other Movies",
+        '2': "Audience Reception and Scores",
+        '3': "Marketing, Franchise Strategy and Distribution",
+        '4': "Film Quality, Creative Content and Characters",
+        '5': "Fandom, Rankings and Community Meta Discussion",
+        '6': "General News and Other"
     }
     
-    df_expanded['topic_name'] = df_expanded['topics'].map(topic_names)
+    # Map topic codes to topic names
+    df_expanded['topic_name'] = df_expanded[topic_col].map(topic_names)
     
     print("\n" + "=" * 80)
     print("TOPIC DISTRIBUTION ANALYSIS")
@@ -148,13 +159,15 @@ def analyze_topic_distribution():
     print("-" * 80)
     
     # Save overall topic distribution
+    # Sort topics: 1a, 1b, 1c, 2, 3, 4, 5, 6
+    topic_order = ['1a', '1b', '1c', '2', '3', '4', '5', '6']
     overall_output = get_data_path('processed') / 'topic_distribution_overall.csv'
     overall_df = pd.DataFrame({
-        'topic_id': [k for k in sorted(topic_names.keys())],
-        'topic_name': [topic_names[k] for k in sorted(topic_names.keys())],
-        'count': [overall.get(topic_names[k], 0) for k in sorted(topic_names.keys())],
+        'topic_id': topic_order,
+        'topic_name': [topic_names[k] for k in topic_order],
+        'count': [overall.get(topic_names[k], 0) for k in topic_order],
         'percentage': [(overall.get(topic_names[k], 0) / total * 100) if total > 0 else 0 
-                      for k in sorted(topic_names.keys())]
+                      for k in topic_order]
     })
     overall_df.to_csv(overall_output, index=False)
     print(f"Overall topic distribution saved to: {overall_output}")
@@ -167,7 +180,7 @@ def analyze_topic_distribution():
         if len(movie_df) == 0:
             continue
         for topic_id, topic_name in topic_names.items():
-            count = len(movie_df[movie_df['topics'] == topic_id])
+            count = len(movie_df[movie_df[topic_col] == topic_id])
             pct = (count / len(movie_df) * 100) if len(movie_df) > 0 else 0
             movie_topic_data.append({
                 'movie': movie,

@@ -44,16 +44,36 @@ def combine_text(row):
 def compute_tfidf_by_topic():
     """Compute TF-IDF scores for each topic and extract top 10 words."""
     # Load annotated data with new 8 topics structure
-    print("Loading reddit_posts_annotated_8topics.csv...")
-    data_path = get_data_path('processed') / 'reddit_posts_annotated_8topics.csv'
-    df = pd.read_csv(data_path)
+    print("Loading final_dataset.xlsx...")
+    data_path = get_data_path('processed') / 'final_dataset.xlsx'
+    df = pd.read_excel(data_path)
+    
+    # If Excel file doesn't have headers, assign them based on CSV structure
+    if 'topic' not in df.columns and 'topics' not in df.columns:
+        # Check if first column looks like IDs (strings starting with numbers/letters)
+        if len(df.columns) == 10 and df.columns[0] not in ['id', 'title', 'selftext']:
+            # Assign column names based on CSV structure
+            df.columns = ['id', 'title', 'selftext', 'subreddit', 'created_utc', 
+                         'author', 'permalink', 'url', 'score', 'topic']
+            print("  Assigned column names based on CSV structure")
+    
+    # Check for both 'topic' and 'topics' column names
+    topic_col = 'topic' if 'topic' in df.columns else 'topics'
     
     # Filter out rows with NaN topics
-    df = df[df['topic'].notna()].copy()
+    df = df[df[topic_col].notna()].copy()
+    
+    # Convert topic column to string to handle mixed types (int and str like '1a', '1b', '1c')
+    df[topic_col] = df[topic_col].astype(str)
     
     print(f"Total posts with topics: {len(df)}")
     print(f"Topic distribution:")
-    print(df['topic'].value_counts().sort_index())
+    # Sort by converting to string and using custom order
+    topic_counts = df[topic_col].value_counts()
+    topic_order = ['1a', '1b', '1c', '2', '3', '4', '5', '6']
+    sorted_counts = {k: topic_counts.get(k, 0) for k in topic_order if k in topic_counts.index}
+    for topic_id, count in sorted_counts.items():
+        print(f"  {topic_id}: {count}")
     print()
     
     # Combine title and selftext
@@ -110,11 +130,11 @@ def compute_tfidf_by_topic():
     topic_order = ['1a', '1b', '1c', '2', '3', '4', '5', '6']
     
     for topic_id in topic_order:
-        if topic_id not in df['topic'].values:
+        if topic_id not in df[topic_col].values:
             continue
             
         topic_name = topic_names.get(topic_id, f"Topic {topic_id}")
-        topic_df = df[df['topic'] == topic_id]
+        topic_df = df[df[topic_col] == topic_id]
         
         if len(topic_df) == 0:
             continue
